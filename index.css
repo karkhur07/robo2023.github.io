@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+nav{
+    display: block;
+    background-color: black;
+    text-align: center;
+    transition: 0.2s ease-out;
+}
+.bar{
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 25px;
+    transition: 0.2s ease-out
+}
+.bar:hover{
+    color: peru;
+}
+.intro{
+    background-image: url(image/cover.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.main{
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 30px;
+    padding-top: 20%;
+    font-weight: 300;
+    
+}
+.sub{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 20px;
+    padding-top: 50px;
+    padding-bottom: 20%;
+}
+.scroll{
+    
+    background-image: url(image/scroll.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    padding: 10px;
+    animation-name: dance;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: 0.2s ease-out;
+    background-position: center;
+}
+@keyframes dance{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.mainh{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(70, 133, 226);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.subh{
+    text-align: center;
+    font-size: x-large;
+    color: plum;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0px;
+}
+.page2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.para1{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+}
+.para2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+.minisep{
+    width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: black;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+.page3{
+    background-image: url(image/robocon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    opacity: 0.8;
+}
+.head{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+.subhead{
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+    margin-top: 0;
+}
+.minisep1{
+    width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+.head1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.minisep2{
+    width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.subhead1{
+    color: #fff;
+}
+.subhead2{
+    color: #fff;
+    padding-bottom: 40px;
+}
+.page4{
+    background-color: black;
+}
+.head2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.mail{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding-bottom: 30px;
+}
+.add{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 80px;
+}
